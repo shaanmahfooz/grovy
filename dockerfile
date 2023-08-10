@@ -1,6 +1,6 @@
-FROM centos:latest
+FROM Ubuntu:latest
 MAINTAINER shaanmahfooz@gmail.com
-RUN yum install -y httpd \
+RUN apt-get install -y apache2 \
   zip \
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page294/troweld.zip /var/www/html/
