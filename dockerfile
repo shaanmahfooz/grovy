@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM ubuntu:latest
 MAINTAINER shaanmahfooz@gmail.com
 RUN apt install apache2 \
   zip \
