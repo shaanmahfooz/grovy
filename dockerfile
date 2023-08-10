@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER shaanmahfooz@gmail.com
-RUN apt install -y apache2 \
+RUN get install -y apache2 \
   zip \
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page294/troweld.zip /var/www/html/
